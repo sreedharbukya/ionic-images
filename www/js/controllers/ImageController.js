@@ -4,6 +4,7 @@ imageapp.controller('ImageController', ["$scope", "ImageFactory", "$ionicActionS
     $scope.images = [];
 
     $scope.deleteAll = function(){
+      // todo: extend to delete all images in which are stored under app data files
       $scope.images = [];
     };
 
